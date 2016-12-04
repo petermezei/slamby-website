@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-    templateUrl: './home.component.jade',
-    styleUrls: ['./home.component.scss']
+    template: require('./home.component.html'),
+    styles: [require('./home.component.scss')]
 })
 
 export class HomeComponent {

@@ -7,25 +7,25 @@ import { AppComponent } from './app.component';
 
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 
-import { HeaderComponent } from './app/common/header/header.component';
-import { FooterComponent } from './app/common/footer/footer.component';
-import { NotFoundPageComponent } from './app/404/404.component';
-import { ThankYouComponent } from './app/thankyou/thankyou.component';
-import { InsightComponent } from './app/insight/insight.component';
-import { HomeComponent } from './app/home/home.component';
-import { SubmenuComponent } from './app/common/submenu/submenu.component';
-import { PricingComponent } from './app/pricing/pricing.component';
-import { GettingStartedComponent } from './app/getting-started/getting-started.component';
-import { PartnersComponent } from './app/partners/partners.component';
-import { CompanyComponent } from './app/company/company.component';
-import { PrivacyPolicyComponent } from './app/legal/privacy-policy.component';
-import { LegalMenuComponent } from './app/legal/legal-menu.component';
-import { CommercialLicenseComponent } from './app/legal/commercial-license.component';
-import { CommercialLicenseOemComponent } from './app/legal/commercial-license-oem.component';
-import { OpenSourceLicenseComponent } from './app/legal/open-source-license.component';
-import { GnuAgplLicenseComponent } from './app/legal/gnu-agpl-license.component';
+import { HeaderComponent } from './common/header/header.component';
+import { FooterComponent } from './common/footer/footer.component';
+import { NotFoundPageComponent } from './404/404.component';
+import { ThankYouComponent } from './thankyou/thankyou.component';
+import { InsightComponent } from './insight/insight.component';
+import { HomeComponent } from './home/home.component';
+import { SubmenuComponent } from './common/submenu/submenu.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { GettingStartedComponent } from './getting-started/getting-started.component';
+import { PartnersComponent } from './partners/partners.component';
+import { CompanyComponent } from './company/company.component';
+import { PrivacyPolicyComponent } from './legal/privacy-policy.component';
+import { LegalMenuComponent } from './legal/legal-menu.component';
+import { CommercialLicenseComponent } from './legal/commercial-license.component';
+import { CommercialLicenseOemComponent } from './legal/commercial-license-oem.component';
+import { OpenSourceLicenseComponent } from './legal/open-source-license.component';
+import { GnuAgplLicenseComponent } from './legal/gnu-agpl-license.component';
 
-import { SupportComponent } from './app/support/support.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   imports: [

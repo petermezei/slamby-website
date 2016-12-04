@@ -3,8 +3,8 @@ import { MenuItem } from './menu.model';
 
 @Component({
     selector: 'pm-header',
-    templateUrl: './header.component.html',
-    styleUrls: ['./header.component.scss']
+    template: require('./header.component.html'),
+    styles: [require('./header.component.scss')]
 })
 
 export class HeaderComponent {
