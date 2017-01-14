@@ -1,13 +1,17 @@
-import { Component } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Component, OnInit } from '@angular/core';
+// import { LeadService } from './lead.service';
 
 @Component({
-    template: require('./insight.component.html'),
-    styles: [require('./insight.component.scss')]
+    templateUrl: './insight.component.html',
+    styleUrls: ['./insight.component.css']
 })
 
 export class InsightComponent {
-    constructor (title: Title){
-        title.setTitle("Slamby Insight");
-    }
+    //constructor(private leadService:LeadService){}
+    // ngOnInit(){
+    //     var leadService = new LeadService();
+    //     console.log(leadService.someMethod(
+    //         "Peti"
+    //     ));
+    // }
 }

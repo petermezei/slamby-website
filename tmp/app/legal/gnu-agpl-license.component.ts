@@ -2,12 +2,8 @@ import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
-    template: require('./gnu-agpl-license.component.html'),
-    styles: [require('./legal.component.scss')]
+    templateUrl: './gnu-agpl-license.component.html',
+    styleUrls: ['./legal.component.css']
 })
 
-export class GnuAgplLicenseComponent {
-    constructor (title: Title){
-        title.setTitle("GNU Affero General Public License");
-    }
-}
+export class GnuAgplLicenseComponent {}

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
@@ -15,4 +16,25 @@
   "files": [
     "src/app/main.ts"
   ]
+=======
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "typeRoots": [ "./node_modules/@types" ],
+        "types": [
+            "node"
+        ],
+        "files": [
+            "main.ts"
+        ]
+    }
+>>>>>>> 9a135cfa8c8b74368e154ea2d4785fb826f69345
 }
